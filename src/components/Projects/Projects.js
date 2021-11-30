@@ -72,7 +72,7 @@ const Projects = () => {
 
                     </div>
                 </div>
-                <div className="row py-5">
+                <div className="row pb-3">
                     <div className="col-12 col-md-7">
                         <img width="100%" src={ayurveda1} alt="" />
                     </div>
