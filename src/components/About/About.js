@@ -1,5 +1,6 @@
 import React from 'react';
 import about from '../../images/about1.jpg'
+import './About.css';
 
 const About = () => {
     return (
@@ -35,46 +36,52 @@ const About = () => {
                     </div>
                 </div>
             </section>
-            <section>
+            <section className="container py-4">
                 <div className="row">
-                    <div className="col-12 col-md-6">
-                        <h2>My Skills</h2>
-                        <h4>Comfortable:</h4>
-                        <div className="technologies">
-                            <div className="py-2">
-                                <span>JavaScript</span>
-                                <span>ES6</span>
-                                <span>React.js</span>
-                                <span>HTML</span>
-                                <span>CSS</span>
-                                <span>Bootstrap</span>
-                            </div>
-                            <div>
-                                <span>React Router</span>
-                                <span>Responsive Design</span>
-                            </div>
-                        </div>
-                        <h4>Familiar</h4>
-                        <div className="technologies">
-                            <div className="py-2">
-                                <span>Node.js</span>
-                                <span>Express.js</span>
-                                <span>NoSQL</span>
-                                <span>Debugging</span>
-                            </div>
-                            <div>
-                                <span>React Bootstrap</span>
-                                <span>Material UI</span>
-                                <span>REST API</span>
+                    <div className="col-12 col-md-6 left-box mb-5">
+                        <h2 className="mb-5 text-warning">My Skills</h2>
+                        <div className="mb-4">
+                            <h4>Comfortable:</h4>
+                            <div className="technologies">
+                                <div className="py-2">
+                                    <span>JavaScript</span>
+                                    <span>ES6</span>
+                                    <span>React.js</span>
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                </div>
+                                <div>
+                                    <span>Bootstrap</span>
+                                    <span>React Router</span>
+                                    <span>Responsive Design</span>
+                                </div>
                             </div>
                         </div>
-                        <h4>Other Skills</h4>
-                        <div className="technologies">
-                            <div className="py-2">
-                                <span>Gimp</span>
-                                <span>Linux</span>
-                                <span>Bash</span>
-                                <span>Excel</span>
+                        <div className="mb-4">
+                            <h4>Familiar</h4>
+                            <div className="technologies">
+                                <div className="py-2">
+                                    <span>Node.js</span>
+                                    <span>Express.js</span>
+                                    <span>NoSQL</span>
+                                    <span>Debugging</span>
+                                </div>
+                                <div>
+                                    <span>React Bootstrap</span>
+                                    <span>Material UI</span>
+                                    <span>REST API</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="mb-4">
+                            <h4>Other Skills</h4>
+                            <div className="technologies">
+                                <div className="py-2">
+                                    <span>Gimp</span>
+                                    <span>Linux</span>
+                                    <span>Bash</span>
+                                    <span>Excel</span>
+                                </div>
                             </div>
                         </div>
                         <h4>Tools</h4>
@@ -98,7 +105,19 @@ const About = () => {
                         </div>
                     </div>
                     <div className="col-12 col-md-6">
-                        <h2>My Education</h2>
+                        <h2 className="mb-5 text-warning">My Education</h2>
+                        <div className="mb-5">
+                            <h3>MBA</h3>
+                            <h6>Department of Accounting & Information Systems</h6>
+                            <h5>University of Dhaka</h5>
+                            <p>Passing Year: 2020</p>
+                        </div>
+                        <div>
+                            <h3>BSc (Hons)</h3>
+                            <h6>Department of Statistics</h6>
+                            <h5>Shahjalal University of Science & Technology</h5>
+                            <p>Passing Year: 2015</p>
+                        </div>
                     </div>
                 </div>
             </section>
