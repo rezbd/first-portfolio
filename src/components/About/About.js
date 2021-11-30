@@ -4,11 +4,11 @@ import about from '../../images/about1.jpg'
 const About = () => {
     return (
         <div className="bg-dark text-white">
-            <div className="container pt-5 pb-4">
+            <section className="container pt-5 pb-4">
                 <div className="row">
                     <div className="col-12 col-md-8">
                         <h5 className="text-info">I am</h5>
-                        <h2 className="mb-4">A H M Rezwanur Rakib Chy</h2>
+                        <h2 className="mb-3">A H M REZWANUR RAKIB CHY</h2>
                         <p>
                             A self-motivated developer. I like to explore technologies and found web development as my passion. I started to learn web development to make a living out of it. Once I started coding, I wanted to make it my lifetime career.
                         </p>
@@ -34,7 +34,74 @@ const About = () => {
                         <img style={{ width: "100%", borderRadius: "20%" }} src={about} alt="" />
                     </div>
                 </div>
-            </div>
+            </section>
+            <section>
+                <div className="row">
+                    <div className="col-12 col-md-6">
+                        <h2>My Skills</h2>
+                        <h4>Comfortable:</h4>
+                        <div className="technologies">
+                            <div className="py-2">
+                                <span>JavaScript</span>
+                                <span>ES6</span>
+                                <span>React.js</span>
+                                <span>HTML</span>
+                                <span>CSS</span>
+                                <span>Bootstrap</span>
+                            </div>
+                            <div>
+                                <span>React Router</span>
+                                <span>Responsive Design</span>
+                            </div>
+                        </div>
+                        <h4>Familiar</h4>
+                        <div className="technologies">
+                            <div className="py-2">
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>NoSQL</span>
+                                <span>Debugging</span>
+                            </div>
+                            <div>
+                                <span>React Bootstrap</span>
+                                <span>Material UI</span>
+                                <span>REST API</span>
+                            </div>
+                        </div>
+                        <h4>Other Skills</h4>
+                        <div className="technologies">
+                            <div className="py-2">
+                                <span>Gimp</span>
+                                <span>Linux</span>
+                                <span>Bash</span>
+                                <span>Excel</span>
+                            </div>
+                        </div>
+                        <h4>Tools</h4>
+                        <div className="technologies">
+                            <div className="py-2">
+                                <span>Chrome Dev Tools</span>
+                                <span>VS Code</span>
+                                <span>Git</span>
+                                <span>Github</span>
+                            </div>
+                            <div className="pb-2">
+                                <span>Firebase</span>
+                                <span>Netlify</span>
+                                <span>Heroku</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <div>
+                                <span>Probhat Keyboard</span>
+                                <span>Tor</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="col-12 col-md-6">
+                        <h2>My Education</h2>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
