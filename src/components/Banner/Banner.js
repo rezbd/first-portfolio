@@ -4,7 +4,7 @@ import './Banner.css';
 
 const Banner = () => {
     return (
-        <div className="container bg-dark text-light">
+        <div className="container bg-dark text-light banner-container">
             <div className="row">
                 <div className="col-12 col-md-6">
                     <h4>Hello, I am</h4>
@@ -27,7 +27,7 @@ const Banner = () => {
                         <button className="btn btn-outline-info">Get in touch</button>
                     </div>
                 </div>
-                <div className="col-12 col-md-6">
+                <div className="col-12 col-md-6 py-3">
                     <img className="portrait" src={portrait} width="100%" alt="" />
                 </div>
             </div>
