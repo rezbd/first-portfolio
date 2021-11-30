@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from '../../images/portfolio-portrait-square.png';
+import portrait from '../../images/portrait-2-sq.jpg';
 import './Banner.css';
 
 const Banner = () => {
