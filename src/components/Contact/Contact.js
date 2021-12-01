@@ -5,13 +5,13 @@ const Contact = () => {
     function sendEmail(e) {
         e.preventDefault();
 
-        emailjs.sendForm('service_w9ctr69',
-            'template_cpfx6r5',
-            e.target,
-            "user_PuroVjFPv9cug9LcytwSR"
-        ).then(res => {
-            console.log(res);
-        }).catch(err => console.log(err));
+        emailjs.sendForm('service_w9ctr69', 'template_cpfx6r5', e.target, "user_PuroVjFPv9cug9LcytwSR")
+            .then(result => {
+                alert("message sent successfully!")
+            }, (error) => {
+                console.log(error.text);
+            });
+        e.target.reset()
     }
 
     return (
@@ -21,13 +21,16 @@ const Contact = () => {
                     <h2>Contact Form</h2>
                     <form className="d-flex flex-column" onSubmit={sendEmail}>
                         <label>Name</label>
-                        <input type="text" name="name" className="form-control" />
+                        <input type="text" name="name" className="form-control" placeholder="Full Name" />
 
                         <label>Email</label>
-                        <input type="email" name="user_email" className="form-control" />
+                        <input type="email" name="user_email" className="form-control" placeholder="Email Address" />
+
+                        <label>Subject</label>
+                        <input type="text" name="subject" className="form-control" placeholder="Subject" />
 
                         <label>Message</label>
-                        <textarea name="message" rows="4" className="form-control" />
+                        <textarea name="message" rows="4" className="form-control" placeholder="Your Message" />
 
                         <input
                             type="submit"
@@ -36,6 +39,7 @@ const Contact = () => {
                             style={{ marginTop: "30px" }}
                         />
                     </form>
+                    <p><em>sending to rezwan6@gmail.com</em></p>
                 </div>
             </div>
         </div>
