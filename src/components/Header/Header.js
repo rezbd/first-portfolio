@@ -10,7 +10,7 @@ const Header = () => {
             <>
                 <Navbar className="nav-container" bg="dark" variant="dark" sticky="top" collapseOnSelect expand="lg">
                     <Container>
-                        <Navbar.Brand href="#home">Rezwanur Rakib Chy</Navbar.Brand>
+                        <Navbar.Brand href="#home">Rezwan</Navbar.Brand>
                         <Navbar.Toggle />
                         <Navbar.Collapse className="justify-content-end">
                             <Nav.Link activeStyle={{ color: "white", textDecoration: "overline" }} className="main-nav" as={NavLink} to="/home">Home</Nav.Link>
