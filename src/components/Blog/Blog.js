@@ -1,9 +1,12 @@
 import React from 'react';
+import './Blog.css';
 
 const Blog = () => {
     return (
-        <div className="">
-            <h2 style={{ marginTop: '70px' }}>COMING SOON</h2>
+        <div>
+            <div className="bg-dark" style={{ height: "60vh", width: "100%" }}>
+                <h2 style={{ paddingTop: "130px", color: "whitesmoke" }}>COMING SOON</h2>
+            </div>
         </div>
     );
 };
