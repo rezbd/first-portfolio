@@ -6,7 +6,7 @@ import travel3 from '../../../images/travel3.jpg'
 
 const TravelSylhet = () => {
     return (
-        <div style={{ paddingTop: "80px", paddingBottom: "80px" }} className="bg-dark text-light">
+        <div style={{ paddingTop: "80px", paddingBottom: "80px", background: "#082032" }} className=" text-light">
             <div className="row container mx-auto">
                 <h2 style={{ paddingBottom: "30px" }}>Travel Sylhet</h2>
                 <div className="col-12 col-md-6">
@@ -52,13 +52,13 @@ const TravelSylhet = () => {
                         </div>
                     </div>
                     <div>
-                        <Link className="me-3" to={{ pathname: "https://antique-cars.web.app/" }} target="_blank">
+                        <Link className="me-3" to={{ pathname: "https://travel-sylhet-5b76e.web.app/" }} target="_blank">
                             <button className="btn btn-sm btn-outline-info">Live Site</button>
                         </Link>
-                        <Link className="me-3" to={{ pathname: "https://github.com/rezbd/antique-cars-client-side" }} target="_blank">
+                        <Link className="me-3" to={{ pathname: "https://github.com/rezbd/travel-sylhet-client-side" }} target="_blank">
                             <button className="btn btn-sm btn-outline-info">Client Code</button>
                         </Link>
-                        <Link to={{ pathname: "https://github.com/rezbd/antique-cars-server-side" }} target="_blank">
+                        <Link to={{ pathname: "https://github.com/rezbd/travel-sylhet-server-side" }} target="_blank">
                             <button className="btn btn-sm btn-outline-info">Server Code</button>
                         </Link>
                     </div>

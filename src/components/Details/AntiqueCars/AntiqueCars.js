@@ -7,7 +7,7 @@ import './AntiqueCars.css'
 
 const AntiqueCars = () => {
     return (
-        <div style={{ paddingTop: "80px", paddingBottom: "80px" }} className="bg-dark text-light">
+        <div style={{ paddingTop: "80px", paddingBottom: "80px", background: "#082032" }} className=" text-light">
             <div className="row container mx-auto">
                 <h2 style={{ paddingBottom: "30px" }}>Antique Cars</h2>
                 <div className="col-12 col-md-6">

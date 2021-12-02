@@ -12,6 +12,7 @@ import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
 import AntiqueCars from './components/Details/AntiqueCars/AntiqueCars';
 import TravelSylhet from './components/Details/TravelSylhet/TravelSylhet';
+import EasternAyurveda from './components/Details/EasternAyurveda/EasternAyurveda';
 
 function App() {
   return (
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/travel">
             <TravelSylhet></TravelSylhet>
+          </Route>
+          <Route path="/ayurveda">
+            <EasternAyurveda></EasternAyurveda>
           </Route>
         </Switch>
         <Footer></Footer>

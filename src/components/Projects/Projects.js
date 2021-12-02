@@ -79,7 +79,7 @@ const Projects = () => {
                     <div className="col-12 col-md-5 py-3">
                         <h3>Eastern Ayurveda</h3>
                         <p>A web application that features traditional ayurvedic remedies. Promotes internal cleansing for improved health.</p>
-                        <Link to="">
+                        <Link to="/ayurveda">
                             <button className="mb-3 mt-1 btn btn-sm btn-outline-info">Learn More</button>
                         </Link>
                         <div className="technologies">
