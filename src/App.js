@@ -10,6 +10,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
+import AntiqueCars from './components/Details/AntiqueCars/AntiqueCars';
 
 function App() {
   return (
@@ -31,6 +32,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact></Contact>
+          </Route>
+          <Route path="/antique">
+            <AntiqueCars></AntiqueCars>
           </Route>
         </Switch>
         <Footer></Footer>

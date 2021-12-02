@@ -17,7 +17,7 @@ const Projects = () => {
                     <div className="col-12 col-md-5 py-3">
                         <h3>Antique Cars</h3>
                         <p>A full-stack web application to sell vintage and extraordinary solid rust and accident free classic cars from 1920s to 1940s.</p>
-                        <Link to="">
+                        <Link to="/antique">
                             <button className="mb-3 mt-1 btn btn-sm btn-outline-info">Learn More</button>
                         </Link>
                         <div className="technologies">
