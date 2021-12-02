@@ -11,6 +11,7 @@ import Contact from './components/Contact/Contact';
 import Blog from './components/Blog/Blog';
 import Footer from './components/Footer/Footer';
 import AntiqueCars from './components/Details/AntiqueCars/AntiqueCars';
+import TravelSylhet from './components/Details/TravelSylhet/TravelSylhet';
 
 function App() {
   return (
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/antique">
             <AntiqueCars></AntiqueCars>
+          </Route>
+          <Route path="/travel">
+            <TravelSylhet></TravelSylhet>
           </Route>
         </Switch>
         <Footer></Footer>

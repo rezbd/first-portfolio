@@ -48,7 +48,7 @@ const Projects = () => {
                     <div className="col-12 col-md-5 py-3">
                         <h3>Travel Sylhet</h3>
                         <p>A full-stack website that provides tour plans in Sylhet. Images and dynamic information are loaded from a NoSQL database.</p>
-                        <Link to="">
+                        <Link to="/travel">
                             <button className="mb-3 mt-1 btn btn-sm btn-outline-info">Learn More</button>
                         </Link>
                         <div className="technologies">
