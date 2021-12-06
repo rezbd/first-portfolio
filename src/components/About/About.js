@@ -17,7 +17,7 @@ const About = () => {
                             I may haven't been in this field for a long time, but I'm not entirely new to technology. I've been involved with Linux communities and using Linux since 2011. An admin of the Ubuntu Bangladesh Facebook page for eight years. I hope this will add an advantage to my programming career.
                         </p>
                         <p>
-                            I like to spend my free time with family, especially playing with my daughter. I also like to get myself involved with non-profit organizations. I'm a fan of classic movies. 'Seven Samurai' is my favorite film.
+                            I live in my hometown Sylhet. A beautiful and peaceful northeastern city in Bangladesh. I've spent most of my life here. I like to spend my free time with family. I'm trying to improve <span className="pt-3"> <a style={{ color: '#e9e5cd' }} target="_blank" rel="noreferrer" href="https://www.goodreads.com/user/show/64676070-rezwanur-rakib-chowdhury">my reading</a></span> habit.
                         </p>
                         <p>
                             Want to learn more about me? Get in touch.
