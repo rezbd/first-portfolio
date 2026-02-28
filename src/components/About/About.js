@@ -108,15 +108,15 @@ const About = () => {
                         <h2 className="mb-5 text-warning">My Education</h2>
                         <div className="mb-5">
                             <h3>MBA</h3>
-                            <h6>Department of Accounting & Information Systems</h6>
+                            <h6>Faculty of Business Studies</h6>
                             <h5>University of Dhaka</h5>
-                            <p>Passing Year: 2020</p>
+                            <p>Session: 2018-2019</p>
                         </div>
                         <div>
                             <h3>BSc (Hons)</h3>
                             <h6>Department of Statistics</h6>
                             <h5>Shahjalal University of Science & Technology</h5>
-                            <p>Passing Year: 2015</p>
+                            <p>Session: 2005-2006</p>
                         </div>
                     </div>
                 </div>
