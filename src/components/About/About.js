@@ -11,10 +11,10 @@ const About = () => {
                         <h5 className="text-info">I am</h5>
                         <h2 className="mb-3">A H M REZWANUR RAKIB CHY</h2>
                         <p>
-                            A self-motivated developer. I like to explore technologies and found web development as my passion. I started to learn web development to make a living out of it. Once I started coding, I wanted to make it my lifetime career.
+                            A self-motivated developer passionate about exploring technology. I began learning web development to build a career, but once I started coding, it became a long-term commitment.
                         </p>
                         <p>
-                            I may haven't been in this field for a long time, but I'm not entirely new to technology. I've been involved with Linux communities and using Linux since 2011. An admin of the Ubuntu Bangladesh Facebook page for eight years. I hope this will add an advantage to my programming career.
+                            With 4 years of experience building production REST APIs and server-side systems using Node.js and MongoDB, I focus on clean backend architecture, database design, performance optimization, and reliable integrations. A long-time Linux user, I value understanding systems deeply and building software that is scalable, maintainable, and efficient.
                         </p>
                         <p>
                             I live in my hometown Sylhet. A beautiful and peaceful northeastern city in Bangladesh. I've spent most of my life here. I like to spend my free time with family. I'm trying to improve <span className="pt-3"> <a style={{ color: '#e9e5cd' }} target="_blank" rel="noreferrer" href="https://www.goodreads.com/user/show/64676070-rezwanur-rakib-chowdhury">my reading</a></span> habit.
