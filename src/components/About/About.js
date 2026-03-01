@@ -39,68 +39,71 @@ const About = () => {
             <section className="container py-4">
                 <div className="row">
                     <div className="col-12 col-md-6 left-box mb-5">
-                        <h2 className="mb-5 text-warning">My Skills</h2>
+                        <h2 className="mb-5 text-warning">TECHNICAL SKILLS</h2>
                         <div className="mb-4">
-                            <h4>Comfortable:</h4>
+                            <h4>Core Backend Skills:</h4>
                             <div className="technologies">
                                 <div className="py-2">
                                     <span>JavaScript</span>
-                                    <span>ES6</span>
-                                    <span>React.js</span>
-                                    <span>HTML</span>
-                                    <span>CSS</span>
-                                </div>
-                                <div>
-                                    <span>Bootstrap</span>
-                                    <span>React Router</span>
-                                    <span>Responsive Design</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="mb-4">
-                            <h4>Familiar</h4>
-                            <div className="technologies">
-                                <div className="py-2">
+                                    <span>TypeScript</span>
                                     <span>Node.js</span>
-                                    <span>Express.js</span>
-                                    <span>NoSQL</span>
-                                    <span>Debugging</span>
+                                    <span>Express</span>
                                 </div>
                                 <div>
-                                    <span>React Bootstrap</span>
-                                    <span>Material UI</span>
+                                    <span>NestJS</span>
+                                    <span>MongoDB</span>
                                     <span>REST API</span>
                                 </div>
                             </div>
                         </div>
                         <div className="mb-4">
-                            <h4>Other Skills</h4>
+                            <h4>Working Knowledge</h4>
                             <div className="technologies">
                                 <div className="py-2">
-                                    <span>Gimp</span>
-                                    <span>Linux</span>
-                                    <span>Bash</span>
-                                    <span>Excel</span>
+                                    <span>Socket.IO</span>
+                                    <span>Redis (BullMQ)</span>
+                                    <span>RabbitMQ</span>
+                                </div>
+                                <div>
+                                    <span>React.js</span>
+                                    <span>CSS</span>
+                                    <span>HTML</span>
                                 </div>
                             </div>
                         </div>
-                        <h4>Tools</h4>
+                        <div className="mb-4">
+                            <h4>Familiar / Exposure</h4>
+                            <div className="technologies">
+                                <div className="py-2">
+                                    <span>MySQL</span>
+                                    <span>PostgreSQL</span>
+                                    <span>TypeORM</span>
+                                </div>
+                                <div>
+                                    <span>CI/CD</span>
+                                    <span>Jest</span>
+                                </div>
+                            </div>
+                        </div>
+                        <h4>Tools & Platforms</h4>
                         <div className="technologies">
                             <div className="py-2">
-                                <span>Chrome Dev Tools</span>
-                                <span>VS Code</span>
                                 <span>Git</span>
                                 <span>Github</span>
+                                <span>Bitbucket</span>
+                                <span>Postman</span>
+                                <span>Swagger</span>
                             </div>
                             <div className="pb-2">
-                                <span>Firebase</span>
-                                <span>Netlify</span>
-                                <span>Heroku</span>
-                                <span>MongoDB</span>
+                                <span>MongoDB Compass</span>
+                                <span>NoSQLBooster</span>
+                                <span>Redis Insight</span>
                             </div>
                             <div>
-                                <span>Probhat Keyboard</span>
-                                <span>Tor</span>
+                                <span>Firebase</span>
+                                <span>Heroku</span>
+                                <span>Netlify</span>
+                                <span>Linux CLI</span>
                             </div>
                         </div>
                     </div>
