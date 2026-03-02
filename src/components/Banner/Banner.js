@@ -19,7 +19,7 @@ const Banner = () => {
                         {/* <i className="fs-3 me-3 fas fa-file"></i> */}
                     </div>
                     <div>
-                        <a target="_blank" rel="noreferrer" className="btn btn-info me-4" href="https://drive.google.com/file/d/1Bj5lP8pf-SmNYj5Q_wxbeHvG91n7eHHE/view?usp=sharing">My Resume</a>
+                        <a target="_blank" rel="noreferrer" className="btn btn-info me-4" href="https://drive.google.com/file/d/16yritGSjJBO9vTCX1GrnwxwkUaN6kzDo/view?usp=drive_link">My Resume</a>
                         <button className="btn btn-outline-info">Get in touch</button>
                     </div>
                 </div>
