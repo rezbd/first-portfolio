@@ -17,7 +17,7 @@ const About = () => {
                             With 4 years of experience building production REST APIs and server-side systems using Node.js and MongoDB, I focus on clean backend architecture, database design, performance optimization, and reliable integrations. A long-time Linux user, I value understanding systems deeply and building software that is scalable, maintainable, and efficient.
                         </p>
                         <p>
-                            I live in my hometown Sylhet. A beautiful and peaceful northeastern city in Bangladesh. I've spent most of my life here. I like to spend my free time with family. I'm trying to improve <span className="pt-3"> <a style={{ color: '#e9e5cd' }} target="_blank" rel="noreferrer" href="https://www.goodreads.com/user/show/64676070-rezwanur-rakib-chowdhury">my reading</a></span> habit.
+                            I live in my hometown Sylhet. A beautiful and peaceful northeastern city in Bangladesh. I've spent most of my life here. I like to spend my free time with family. I'm trying to build a better <span className="pt-3"> <a style={{ color: '#e9e5cd' }} target="_blank" rel="noreferrer" href="https://www.goodreads.com/user/show/64676070-rezwanur-rakib-chowdhury">reading</a></span> habit.
                         </p>
                         <p>
                             Want to learn more about me? Get in touch.
@@ -27,7 +27,7 @@ const About = () => {
                             <a target="_blank" rel="noreferrer" href="https://github.com/rezbd"><i className="text-info fs-3 me-3 fab fa-github-square"></i></a>
                             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/rezbd/"><i className="text-info fs-3 me-3 fab fa-linkedin"></i></a>
                             <a target="_blank" rel="noreferrer" href="mailto:rezwan6@gmail.com"><i className="text-info fs-3 me-3 fas fa-envelope-square"></i></a>
-                            <a target="_blank" rel="noreferrer" href="http://facebook.com/rezbd"><i className="text-info fs-3 me-3 fab fa-facebook-square"></i></a>
+                            <a target="_blank" rel="noreferrer" href="https://facebook.com/rezbd"><i className="text-info fs-3 me-3 fab fa-facebook-square"></i></a>
                             {/* <i className="fs-3 me-3 fas fa-file"></i> */}
                         </div>
                     </div>
@@ -111,15 +111,15 @@ const About = () => {
                         <h2 className="mb-5 text-warning">My Education</h2>
                         <div className="mb-5">
                             <h3>MBA</h3>
-                            <h6>Faculty of Business Studies</h6>
+                            <h6>Department of Accounting and Information Systems</h6>
                             <h5>University of Dhaka</h5>
-                            <p>Session: 2018-2019</p>
+                            <p>Passing Year: 2021</p>
                         </div>
                         <div>
                             <h3>BSc (Hons)</h3>
                             <h6>Department of Statistics</h6>
-                            <h5>Shahjalal University of Science & Technology</h5>
-                            <p>Session: 2005-2006</p>
+                            <h5>Shahjalal University of Science and Technology</h5>
+                            <p>Passing Year: 2015</p>
                         </div>
                     </div>
                 </div>
