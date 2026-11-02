@@ -8,7 +8,7 @@ const Banner = () => {
             <div className="row">
                 <div className="col-12 col-md-6">
                     <h4>Hello, I am</h4>
-                    <h1>Rezwanur Rakib Chy</h1>
+                    <h1>A H M Rezwanur Rakib Chy</h1>
                     <h4>Backend-Focused Full-Stack Developer</h4>
                     <p>Self-motivated developer passionate about building reliable and scalable web applications. Strong focus on backend systems with JavaScript and modern frameworks, continuously improving through real-world challenges and evolving technologies.</p>
                     <div style={{ marginTop: "40px", marginBottom: "40px" }}>
